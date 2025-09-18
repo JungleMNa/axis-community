@@ -1,8 +1,8 @@
 const leaderboardData = [
-    { rank: 1, name: 'Moad', score: 50 },
-    { rank: 2, name: 'Mrvoid', score: 15 },
-    { rank: 3, name: 'Zachary', score: 10 },
-    { rank: 4, name: 'Useless', score: 5 },
+    { rank: 1, name: 'Moad', score: 30 },
+    { rank: 2, name: 'Mrvoid', score: 20 },
+    { rank: 3, name: 'Zachary', score: 15 },
+    { rank: 4, name: 'Useless', score: 10 },
     { rank: 5, name: 'UNKNOWN', score: 0 },
     { rank: 6, name: 'UNKNOWN', score: 0 },
     { rank: 7, name: 'UNKNOWN', score: 0 },
@@ -41,3 +41,4 @@ function generateLeaderboard() {
 
 
 document.addEventListener('DOMContentLoaded', generateLeaderboard);
+
