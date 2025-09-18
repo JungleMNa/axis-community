@@ -1,14 +1,14 @@
 const leaderboardData = [
-    { rank: 1, name: 'no event yet', score: 10000 },
-    { rank: 2, name: 'no event yet', score: 9500 },
-    { rank: 3, name: 'no event yet', score: 9000 },
-    { rank: 4, name: 'no event yet', score: 8500 },
-    { rank: 5, name: 'no event yet', score: 8000 },
-    { rank: 6, name: 'no event yet', score: 7500 },
-    { rank: 7, name: 'no event yet', score: 7000 },
-    { rank: 8, name: 'no event yet', score: 6500 },
-    { rank: 9, name: 'no event yet', score: 6000 },
-    { rank: 10, name: 'no event yet', score: 5500 },
+    { rank: 1, name: 'Moad', score: 50 },
+    { rank: 2, name: 'Mrvoid', score: 15 },
+    { rank: 3, name: 'Zachary', score: 10 },
+    { rank: 4, name: 'Useless', score: 5 },
+    { rank: 5, name: 'UNKNOWN', score: 0 },
+    { rank: 6, name: 'UNKNOWN', score: 0 },
+    { rank: 7, name: 'UNKNOWN', score: 0 },
+    { rank: 8, name: 'UNKNOWN', score: 0 },
+    { rank: 9, name: 'UNKNOWN', score: 0 },
+    { rank: 10, name: 'UNKNOWN', score: 0 },
 ];
 
 function generateLeaderboard() {
@@ -38,5 +38,6 @@ function generateLeaderboard() {
         container.appendChild(entry);
     });
 }
+
 
 document.addEventListener('DOMContentLoaded', generateLeaderboard);
