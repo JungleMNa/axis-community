@@ -22,6 +22,54 @@
     <main class="leaderboard">
         <h2>Leaderboard</h2>
         <div id="leaderboard-container"></div>
+        
+        <!-- Player Stats Modal -->
+        <div id="player-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modal-player-name"></h3>
+                    <div class="modal-rank">
+                        Rank #<span id="modal-player-rank"></span>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-label">Total Score</div>
+                            <div class="stat-value" id="modal-player-score"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Events Played</div>
+                            <div class="stat-value" id="modal-player-events"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="medals-section">
+                        <h4>Medals</h4>
+                        <div class="medals-grid">
+                            <div class="medal-item gold">
+                                <span class="medal-icon">🥇</span>
+                                <span class="medal-count" id="modal-gold-medals"></span>
+                            </div>
+                            <div class="medal-item silver">
+                                <span class="medal-icon">🥈</span>
+                                <span class="medal-count" id="modal-silver-medals"></span>
+                            </div>
+                            <div class="medal-item bronze">
+                                <span class="medal-icon">🥉</span>
+                                <span class="medal-count" id="modal-bronze-medals"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="best-event-section">
+                        <h4>Best Event</h4>
+                        <div class="best-event" id="modal-best-event"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="js/leaderboard.js"></script>
     <script src="js/script.js"></script>
